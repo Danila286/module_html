@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rewiew</title>
+</head>
+<body>
+    <p>
+        <a href="./index.html">Главная</a>
+    </p>
+    <div>
+        <p>
+             Подалуйста, оставте свой отзый:
+        </p>
+        <form name="rewiew" action="#">
+            <p>
+                Ваше имя:
+            </p>
+            <p>
+                <input name="name" type="text" placeholder="Введите имя" required>
+            </p>
+            <p>
+                Ваш email:
+            </p>
+            <p>
+                <input name="email" type="email" placeholder="Введите email" required>
+            </p>
+            <p>
+                Оцените нашу работу:
+            </p>
+            <p>
+                <select name="mark">
+                    <option value="five" selected>5</option>
+                    <option value="four">4</option>
+                    <option value="three">3</option>
+                    <option value="two">2</option>
+                    <option value="one">1</option>
+                </select>
+            </p>
+            <p>
+                Порекомендуете ли вы нас?
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="rec" checked>
+                    Да
+                </label>
+                <label>
+                    <input type="radio" name="rec">
+                    Нет
+                </label>
+            </p>
+            <p>
+                Что Вам понравилось?
+            </p>
+            <p>
+                <textarea name="good" id="" cols="30" rows="5"></textarea>
+            </p>
+            <p>
+                Что Вам не понравилось?
+            </p>
+            <p>
+                <textarea name="bad" id="" cols="30" rows="5"></textarea>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
