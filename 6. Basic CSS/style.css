@@ -1,0 +1,56 @@
+div{
+    background: url(https://ulibky.ru/wp-content/uploads/2020/08/Strashnye_kartinki_1_24090930.jpg);
+    border-width: 10px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 10px;
+    width: 1000px;
+}
+.war{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.first{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.second{
+    text-align: right;
+    color: blue;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.third{
+    text-align: left;
+    color: green;
+    font-size: 30px;
+    text-transform: lowercase;
+    word-spacing: 50px;
+}
+#fours{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    color: yellow;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.fifth{
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#second{
+    text-align: right;
+    color: blue;
+    font-size: 30px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}
