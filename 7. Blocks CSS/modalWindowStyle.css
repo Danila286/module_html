@@ -1,0 +1,42 @@
+.content{
+    font-size: 30px;
+    opacity: 0.5;
+    background-color: #80808080;
+    position: relative;
+}
+
+.modalwindow{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin: 100px;
+    padding: 0;
+    border-radius: 10%;
+    background-color: #bcbcbc;
+    width: 300px;
+    height: 250px;
+}
+
+.text{
+    padding: 20px 10px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-size: 30px;
+}
+
+.button{
+    padding: 0 10px;
+}
+
+.modaltext{
+    padding: 0 10px;
+    font-size: 30px;
+    position: relative;
+}
+
+.x{
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    right: 25px;
+}
