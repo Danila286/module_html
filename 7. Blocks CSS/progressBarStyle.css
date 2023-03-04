@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.progress{
+.progress {
     font-size: 30px;
     text-align: center;
-    margin: 100px;
+    margin: 40%;
     padding: 10px;
     border: 5px solid #ff0000;
     position: relative;
@@ -13,8 +13,8 @@
     width: 500px;
 }
 
-.progress2{
-    margin: 0 100px;
+.progress2 {
+    margin: 0 40%;
     padding: 35px;
     border: 5px solid #ff0000;
     border-right: none;
