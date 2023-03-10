@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    background-color: black;
+}
+
+.switch {
+    display: inline-block;
+}
+
+.switch [type="checkbox"] {
+    display: none;
+}
+
+.switchSpan {
+    font-size: 25px;
+    display: block;
+    padding: 15px;
+    margin: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: nowrap;
+    color: #219a2b;
+    position: relative;
+    transition: all .1s linear;
+}
+
+.switch :checked~span {
+    color: #fff;
+    background-color: #219a2b;
+    animation: .4s linear click;
+}
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+     }
+    50% {
+        transform: scale(1.2);
+    }
+    100% { 
+        transform: scale(1);
+    }
+}
